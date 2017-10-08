@@ -1,0 +1,228 @@
+
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+	padding: 3em;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FFF;
+	color: #444;
+}
+
+a {
+	color: #D00;
+	 text-decoration: none;
+	 -webkit-transition: all 300ms;
+}
+
+a:hover {
+	color: #A00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+header a{
+  width: 15%;
+  text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+  display: inline;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+	padding: 0;
+  display: inline;
+}
+
+h2 a {
+	color: inherit;
+}
+
+h2 a:hover {
+	color: #D00;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: normal;
+	color: #CCC;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	max-width: 100%;
+}
+
+header h2 {
+	font-size: 1.5em;
+	margin-bottom: .5em;
+  color: rgb(146, 146, 146)
+}
+
+footer {
+	color: #BBB;
+	clear: both;
+}
+
+header nav a {
+	display: inline-block;
+	font-size: 1.25em;
+	color: #DDD;
+	border-bottom: 2px solid #EEE;
+	background-color: black;
+  margin: -1.5px;
+  border-right: 1px solid white;
+  padding: 4px;
+}
+
+.mainblog{
+  float:left;
+  width: 70%;
+}
+
+article {
+	border-bottom: 1px solid #DDD;
+	margin: 3em 0;
+	padding-bottom: 1.5em;
+}
+
+article p:first-letter {
+	float: left;
+	font-size: 6em;
+	line-height: 1;
+	color: #DDD;
+	margin: -.1em .1em 0 -.1em;
+}
+
+aside{
+  width:25%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 140px;
+}
+
+aside p{
+  color:gray;
+}
+
+.about {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 3em
+}
+
+.list {
+    border-top: 1px solid #DDD;
+    margin-top: 20px
+}
+
+.ad{
+  border: 15px solid white;
+  margin-top:2px
+}
+
+aside h4{
+  color: gray;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+
+aside a{
+  float: right;
+  margin-bottom: 10px
+}
+
+ul{
+  color: gray;
+}
+
+.item{
+  color: red;
+}
